@@ -1,0 +1,23 @@
+{
+  "name": "transit-pulse-ai-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TransitPulse AI - Real-time public transport tracking & ETA prediction platform",
+  "scripts": {
+    "dev": "pnpm --parallel --filter \"./apps/*\" dev",
+    "dev:passenger": "pnpm --filter passenger-web dev",
+    "dev:admin": "pnpm --filter admin-web dev",
+    "build": "pnpm --recursive run build",
+    "lint": "pnpm --recursive run lint",
+    "test": "pnpm --recursive run test",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

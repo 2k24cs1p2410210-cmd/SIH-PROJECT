@@ -1,0 +1,74 @@
+# Node / JS
+node_modules/
+.next/
+out/
+build/
+dist/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.turbo
+
+# Python / FastAPI / ML
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+
+# ML Data & Model Artifacts
+services/ml/data/raw/*
+!services/ml/data/raw/.gitkeep
+services/ml/data/processed/*
+!services/ml/data/processed/.gitkeep
+services/ml/data/synthetic/*
+!services/ml/data/synthetic/.gitkeep
+services/ml/artifacts/*
+!services/ml/artifacts/.gitkeep
+*.joblib
+*.pkl
+*.h5
+*.onnx
+
+# Android
+apps/driver-android/.gradle/
+apps/driver-android/build/
+apps/driver-android/app/build/
+apps/driver-android/local.properties
+apps/driver-android/.idea/
+apps/driver-android/*.iml
+apps/driver-android/app/*.iml
+
+# Environment & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# Database & Storage
+*.sqlite
+*.db
+*.log
+
+# IDEs & System
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker / Local persistent data
+.docker-data/

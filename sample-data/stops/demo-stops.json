@@ -1,0 +1,56 @@
+[
+  {
+    "id": "stop-001",
+    "stop_code": "CBT-01",
+    "name": "Hubballi CBT Central Station",
+    "route_id": "route-001",
+    "sequence_order": 1,
+    "latitude": 15.364708,
+    "longitude": 75.123955
+  },
+  {
+    "id": "stop-002",
+    "stop_code": "BRTS-02",
+    "name": "Hosur Cross BRTS",
+    "route_id": "route-001",
+    "sequence_order": 2,
+    "latitude": 15.372000,
+    "longitude": 75.115000
+  },
+  {
+    "id": "stop-003",
+    "stop_code": "BRTS-03",
+    "name": "Unkal Lake BRTS",
+    "route_id": "route-001",
+    "sequence_order": 3,
+    "latitude": 15.391200,
+    "longitude": 75.091500
+  },
+  {
+    "id": "stop-004",
+    "stop_code": "BRTS-04",
+    "name": "Navanagar BRTS",
+    "route_id": "route-001",
+    "sequence_order": 4,
+    "latitude": 15.405000,
+    "longitude": 75.075000
+  },
+  {
+    "id": "stop-005",
+    "stop_code": "BRTS-05",
+    "name": "Rayapur BRTS",
+    "route_id": "route-001",
+    "sequence_order": 5,
+    "latitude": 15.421500,
+    "longitude": 75.051200
+  },
+  {
+    "id": "stop-006",
+    "stop_code": "BRTS-06",
+    "name": "Dharwad Court Circle",
+    "route_id": "route-001",
+    "sequence_order": 6,
+    "latitude": 15.458900,
+    "longitude": 75.012500
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route-001",
+        "name": "Hubballi CBT to Dharwad BRTS Corridor"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [75.123955, 15.364708],
+          [75.115000, 15.372000],
+          [75.100000, 15.385000],
+          [75.091500, 15.391200],
+          [75.075000, 15.405000],
+          [75.051200, 15.421500],
+          [75.012500, 15.458900]
+        ]
+      }
+    }
+  ]
+}

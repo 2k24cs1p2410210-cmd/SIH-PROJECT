@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "route-002",
+        "name": "Old Bus Stand to Navanagar Circle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [75.132000, 15.352000],
+          [75.110000, 15.375000],
+          [75.091500, 15.391200]
+        ]
+      }
+    }
+  ]
+}
